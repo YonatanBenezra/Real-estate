@@ -4,6 +4,7 @@ import { Context } from "./Context.jsx";
 import SecondComponent from "./components/SecondComponent.jsx";
 
 export default function App() {
+  const constant = "hi"
   const favoriteProperties = useContext(Context);
   const [dynamicfavoriteProperties, setDynamicfavoriteProperties] = useState(data.number)
   return (
